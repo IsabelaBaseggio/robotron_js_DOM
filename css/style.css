@@ -209,7 +209,7 @@ main {
     margin: 10px 0 0;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
     body { 
         font-size: 14px;
     }
@@ -217,12 +217,14 @@ main {
         width: 90vw;
         height: 80vh;
         margin: 5vh auto;
+        flex-direction: column;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     body { 
         font-size: 13px;
+        
     }
 
     main {
@@ -230,4 +232,21 @@ main {
         height: 80vh;
         margin: 10vh auto;
     }
+
+    .robotron {
+        background: url(../img/estrutura.png) no-repeat;
+        background-position: center center;
+        height: 90%;
+        margin: 0;
+        position: relative;
+    }
+
+    .robo {
+        height: 85%;
+        z-index: 1;
+        position: relative;
+        margin: auto;
+    }
+
+
 }
